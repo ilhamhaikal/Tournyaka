@@ -1,0 +1,58 @@
+/* Background and font Color */
+.bg-orange {
+  background-color: rgb(252, 191, 73);
+}
+
+.text-orange {
+  color: goldenrod !important;
+}
+/* End Background and font Color */
+
+/* sidebar */
+.sidebar-orange .sidebar-brand {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange hr.sidebar-divider {
+  border-top: 1px solid rgb(252, 191, 73);
+}
+.sidebar-orange .sidebar-heading {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebar-orange .nav-item .nav-link {
+  color: white;
+}
+.sidebar-orange .nav-item .nav-link i {
+  color: rgba(255, 255, 255, 0.3);
+}
+.sidebar-orange .nav-item .nav-link:active,
+.sidebar-orange .nav-item .nav-link:focus,
+.sidebar-orange .nav-item .nav-link:hover {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange .nav-item .nav-link:active i,
+.sidebar-orange .nav-item .nav-link:focus i,
+.sidebar-orange .nav-item .nav-link:hover i {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange .nav-item .nav-link[data-toggle="collapse"]::after {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebar-orange .nav-item.active .nav-link {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange .nav-item.active .nav-link i {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange #sidebarToggle {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sidebar-orange #sidebarToggle::after {
+  color: rgb(252, 191, 73);
+}
+.sidebar-orange #sidebarToggle:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.sidebar-orange.toggled #sidebarToggle::after {
+  color: rgb(252, 191, 73);
+}
+/* End sidebar */
